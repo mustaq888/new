@@ -122,6 +122,15 @@ df-messenger {
         nav{
             background: rgba(0, 0, 0, 0.5);
         }
+        /* Logo hover effect similar to MUSTHAQ text */
+        .logo-img {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .logo-img:hover {
+            transform: scale(1.18) rotate(6deg);
+            box-shadow: 0 0 16px 4px rgba(34,211,238,0.7), 0 2px 16px rgba(34,211,238,0.4);
+            z-index: 10;
+        }
     </style>
 
 
@@ -131,12 +140,22 @@ df-messenger {
 
     <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-500">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex justify-between items-center relative">
-            <h1
-  id="kj-logo-home"
-  class="text-cyan-400 text-2xl sm:text-4xl font-extrabold font-mono tracking-widest drop-shadow-[0_0_8px_rgba(34,211,238,0.8)] transition-all duration-500 ease-in-out cursor-pointer hover:text-cyan-300 hover:scale-125 hover:rotate-1 hover:drop-shadow-[0_0_12px_rgba(34,211,238,1)]"
->
-  MUSTHAQ
-</h1>
+
+                        <div class="flex items-center gap-2">
+                            
+                                    <img 
+                                        src="flaticon.png" 
+                                        alt="Logo" 
+                                        class="logo-img transition-all duration-500 ease-in-out cursor-pointer"
+                                        style="height: 40px; width: 40px; border-radius: 50%; box-shadow: 0 2px 8px rgba(34,211,238,0.4);"
+                                    />
+                                <h1
+                                    id="Ms-logo-home"
+                                    class="text-cyan-400 text-2xl sm:text-4xl font-extrabold font-mono tracking-widest drop-shadow-[0_0_8px_rgba(34,211,238,0.8)] transition-all duration-500 ease-in-out cursor-pointer hover:text-cyan-300 hover:scale-125 hover:rotate-1 hover:drop-shadow-[0_0_12px_rgba(34,211,238,1)]"
+                                >
+                                    MUSTHAQ
+                                </h1>
+                        </div>
 
             
             <button id="mobile-menu-button" class="sm:hidden text-white focus:outline-none">
