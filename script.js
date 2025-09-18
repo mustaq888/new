@@ -376,11 +376,19 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: "Musthaq  Vision",
-            desc: "“A modern e-commerce eyewear store with discounts, wishlist, cart, and responsive design for a smooth shopping experience.",
+            desc: "A modern e-commerce eyewear store with discounts, wishlist, cart, and responsive design for a smooth shopping experience.",
             tech:    ["HTML", "JSON", "CSS"],
             icon: "👓",
             color: "from-green-400 to-blue-400",
             website: "https://e-commerce-website-two-iota.vercel.app/" 
+        },
+        {
+            title: "My Deen Routine",
+            desc: "My Deen Routine – A responsive web app to track daily prayers, habits, dhikr, prayer times, and daily Quranic verses.",
+            tech:    ["HTML", "JSON", "CSS"],
+            icon: "📿",
+            color: "from-green-400 to-blue-400",
+            website: "https://my-deen-journey.vercel.app/" 
         },
         {
             title: "Musthaq Portfolio — Full-Stack Developer ",
