@@ -373,7 +373,7 @@ document.addEventListener('DOMContentLoaded', () => {
             icon: "🛒",
             color: "from-purple-400 to-pink-400",
             website: "https://flip-k-redesign.vercel.app/"
-            github: "https://github.com/mustaq888/portfolio"
+            
         },
         {
             title: "Musthaq  Vision",
@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
             icon: "👓",
             color: "from-green-400 to-blue-400",
             website: "https://e-commerce-website-two-iota.vercel.app/"
-            github: "https://github.com/mustaq888/portfolio"
+           
         },
         {
             title: "My Deen Routine",
@@ -391,7 +391,7 @@ document.addEventListener('DOMContentLoaded', () => {
             icon: "📿",
             color: "from-green-400 to-blue-400",
             website: "https://my-deen-journey.vercel.app/"
-            github: "https://github.com/mustaq888/portfolio"
+            
         },
         {
             title: "Musthaq Portfolio — Full-Stack Developer ",
@@ -400,7 +400,7 @@ document.addEventListener('DOMContentLoaded', () => {
             icon: "🌐",
             color: "from-yellow-400 to-orange-400",
             website: "https://musthaq-portflio.vercel.app/"
-            github: "https://github.com/mustaq888/portfolio"
+           
         },
         
     ];
@@ -436,7 +436,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </p>
                     <div class="flex flex-wrap gap-2 justify-center">
                         ${techBadges}
-                        ${proj.github ? `<a href="${proj.github}" target="_blank" rel="noopener noreferrer" class="bg-cyan-400/10 text-cyan-400 px-3 py-1 rounded-full text-xs font-medium border border-cyan-400/30 hover:bg-cyan-400/20 transition-all duration-300 transform hover:scale-105">GitHub Repo</a>` : ''}
+                       
                     </div>
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-t from-cyan-400/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg pointer-events-none"></div>
