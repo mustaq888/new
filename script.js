@@ -385,7 +385,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "My Deen Routine",
             desc: "My Deen Routine – A responsive web app to track daily prayers, habits, dhikr, prayer times, and daily Quranic verses.",
-            tech:    ["HTML", "JSON", "CSS"],
+            tech:    ["TYPESCRIPT", "TAILWIND", "CSS"],
             icon: "📿",
             color: "from-green-400 to-blue-400",
             website: "https://my-deen-journey.vercel.app/" 
